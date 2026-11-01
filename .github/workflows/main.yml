@@ -1,0 +1,11 @@
+name: Aakashup30 Automation
+
+on:
+  workflow_dispatch:
+
+jobs:
+  setup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Start
+        run: echo "Aakashup30 automation is ready"
